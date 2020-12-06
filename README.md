@@ -1,3 +1,3 @@
 <h1>TypeScript</h1>
 
-<p>Exemplos e exercícios</p>
+<p>Exemplos e exercícios typescript</p>
