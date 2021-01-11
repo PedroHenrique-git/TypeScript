@@ -4,7 +4,8 @@
   "description": "<h1>TypeScript</h1>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,13 @@
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-prettier": "^3.2.0",
     "prettier": "^2.2.1",
+    "ts-loader": "^8.0.13",
     "ts-node": "^9.1.0",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "@types/validator": "^13.1.2"
   }
 }
