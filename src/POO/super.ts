@@ -36,7 +36,11 @@ export class Aluno extends Pessoa {
     this.matricula = matricula;
   }
   public nomeCompleto(): string {
-    return `${this.nome} ${this.sobrenome} ${this.matricula}`;
+    return (
+      `${this.nome} ${this.sobrenome} ${this.matricula}` +
+      " " +
+      super.nomeCompleto()
+    );
   }
 }
 
