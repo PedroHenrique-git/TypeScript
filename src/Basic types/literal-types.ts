@@ -10,6 +10,6 @@ const person = {
 function escolhaCor(cor: "Vermelho" | "Amarelo" | "Azul") {
   return cor;
 }
-console.log(escolhaCor(""));
+console.log(escolhaCor("Vermelho"));
 
 export const x = 10;
