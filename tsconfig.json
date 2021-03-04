@@ -70,5 +70,5 @@
   },
   "include": [
     "./src"
-  ]
+, "meu_declaration_files.d.ts"  ]
 }
